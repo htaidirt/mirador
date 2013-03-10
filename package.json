@@ -1,17 +1,17 @@
 {
-  "name": "Scientist",
-  "version": "0.0.1",
+  "name": "Mirador",
+  "version": "0.1.1",
   "author": {
     "name": "Hassen Taidirt",
     "email": "htaidirt@gmail.com"
   },
   "scripts": {
-    "start": "node index"
+    "start": "node main"
   },
   "bin": {
-    "scientist": "./index.js"
+    "mirador": "./main.js"
   },
-  "main": "./index",
+  "main": "./main",
   "dependencies": {
       "mocha": "*",
       "watch": "latest"

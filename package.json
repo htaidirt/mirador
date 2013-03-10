@@ -1,0 +1,19 @@
+{
+  "name": "Scientist",
+  "version": "0.0.1",
+  "author": {
+    "name": "Hassen Taidirt",
+    "email": "htaidirt@gmail.com"
+  },
+  "scripts": {
+    "start": "node index"
+  },
+  "bin": {
+    "scientist": "./index.js"
+  },
+  "main": "./index",
+  "dependencies": {
+      "mocha": "*",
+      "watch": "latest"
+  }
+}

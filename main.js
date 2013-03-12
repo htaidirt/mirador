@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
+
 var test = require('./lib/test')
 ,   watch = require('watch')
 ,   cwd = process.cwd()
 
 console.log('Current working directory: ' + cwd + '...')
 
-// 
 /*
  * First, check if the test/ folder exists.
  * This is a requirement to perform tests.

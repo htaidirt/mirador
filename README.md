@@ -41,4 +41,10 @@ Would like to fix a bug, improve the code or add a feature? Please, do it the ri
 
 ## License
 
-MIT - Hassen Taidirt <htaidirt@gmail.com>
+MIT
+
+## Author
+
+Hassen Taidirt < <htaidirt@gmail.com> >
+
+Much appreciate follow [@htaidirt](http://twitter.com/htaidirt).

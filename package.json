@@ -1,5 +1,5 @@
 {
-    "name": "Mirador",
+    "name": "mirador",
     "description": "Mirador runs automatically your mocha tests when any file in the project changes.",
     "keywords": [
         "test",

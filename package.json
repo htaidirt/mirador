@@ -1,22 +1,31 @@
 {
-  "name": "Mirador",
-  "version": "0.1.2",
-  "author": {
-    "name": "Hassen Taidirt",
-    "email": "htaidirt@gmail.com"
-  },
-  "scripts": {
-    "start": "node main"
-  },
-  "bin": {
-    "mirador": "./main.js"
-  },
-  "main": "./main",
-  "dependencies": {
-      "mocha": "*",
-      "watch": "latest"
-  },
-  "engines": {
-      "node": "0.10.0"
-  }
+    "name": "Mirador",
+    "description": "Mirador runs automatically your mocha tests when any file in the project changes.",
+    "keywords": [
+        "test",
+        "mocha",
+        "automatic"
+    ],
+    "version": "0.1.2",
+    "author": "Hassen Taidirt <htaidirt@gmail.com>",
+    "preferGlobal": true,
+    "scripts": {
+        "start": "node main"
+    },
+    "bin": {
+        "mirador": "./main.js"
+    },
+    "main": "./main",
+    "dependencies": {
+        "mocha": "*",
+        "watch": "latest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/htaidirt/mirador.git"
+    },
+    "engines": {
+        "node": "0.10.0"
+    },
+    "license": "MIT"
 }
